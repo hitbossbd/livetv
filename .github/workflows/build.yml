@@ -19,7 +19,7 @@ jobs:
 
 
       - name: Install CMake 3.10.2
-        run: sdkmanager "cmake;3.10.2"
+        run: /usr/local/lib/android/sdk/cmdline-tools/latest/bin/sdkmanager "cmake;3.10.2"
 
       - name: Make gradlew executable
         run: chmod +x gradlew
