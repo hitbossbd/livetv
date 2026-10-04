@@ -15,6 +15,7 @@ Java_com_code_files_AppConfig_getApiServerUrl(
         JNIEnv* env,
         jclass clazz) {
     return env->NewStringUTF(SERVER_URL.c_str());
+}
 
 extern "C" JNIEXPORT jstring JNICALL
 Java_com_code_files_AppConfig_getApiKey(
